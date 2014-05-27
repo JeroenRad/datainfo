@@ -1,0 +1,6 @@
+﻿UPDATE Boek
+SET isbn=1234567891234
+WHERE isbn='9789024561858'
+;
+
+SELECT * FROM Boek, Exemplaar
